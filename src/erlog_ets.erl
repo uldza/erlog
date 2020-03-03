@@ -158,5 +158,9 @@ ets_var(13) -> '$13';
 ets_var(14) -> '$14';
 ets_var(15) -> '$15';
 ets_var(16) -> '$16';
+ets_var(17) -> '$17';
+ets_var(18) -> '$18';
+ets_var(19) -> '$19';
+ets_var(20) -> '$20';
 ets_var(N) -> 					%Do the rest less efficiently
     list_to_atom([$$|integer_to_list(N)]).
